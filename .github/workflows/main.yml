@@ -18,7 +18,7 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         context: ./src
-        file: ./src/dockerfile
+        file: ./src/Dockerfile
         push: true
         tags: |
           viniciusfonseca/pipeline:v${{ github.run_number }} 
