@@ -1,4 +1,4 @@
-name: CI-CD Login Docker
+name: CI-CD 
 on: 
   push:
     branch: ["main"]
