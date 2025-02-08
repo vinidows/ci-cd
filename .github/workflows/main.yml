@@ -21,6 +21,6 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: |
-          viniciusfonseca/pipeline:v${{ github.run_number }} 
-          viniciusfonseca/pipeline:latest
+         vinidows/pipeline:v${{ github.run_number }} 
+         vinidows/pipeline:latest
          
