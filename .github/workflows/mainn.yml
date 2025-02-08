@@ -1,0 +1,16 @@
+name: CI-CD Login Docker
+on: 
+  push:
+    branch: ["main"]
+  workflow_dispatch:
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Pegando o cógido 
+      uses: actions/checkout@v4.2.2
+    - name: Logando GitHub
+      uses: docker/login-actions@v3.3.0
+      with:
+       username: ${{ secrets.DOCKERHUB_USERNAME }}
+       password: ${{ secrets.DOCKERHUB_TOKEN }}
