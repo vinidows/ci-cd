@@ -22,5 +22,5 @@ jobs:
           push: true
           tags: |
           viniciusfonseca/pipeline:v${{ github.run_number }} 
-          viniciusfonseca/pipeline:latest 
+          viniciusfonseca/pipeline:latest
          
