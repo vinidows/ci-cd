@@ -7,7 +7,7 @@ jobs:
   CI:
     runs-on: ubuntu-latest
     steps:
-    - name: Geting the code
+    - name: Geting thes code
       uses: actions/checkout@v4.2.2
     - name: login on DockerHub
       uses: docker/login-action@v3.3.0
